@@ -11,7 +11,7 @@ Public Sub main()
     Dim i As Long
     
     Debug.Print ""
-    Debug.Print ""
+    Debug.Print "==========================================================================="
     Debug.Print "Comparison started.  Loading Sheet1 & Sheet2..."
     startTime = Timer()
     
@@ -61,7 +61,6 @@ Public Sub main()
         End If
     Next
     Debug.Print "They are found on the following lines: " & str
-    Debug.Print ""
     Debug.Print ""
     
     Debug.Print "Comparison Complete!"
